@@ -1,4 +1,3 @@
-// main.dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +10,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      // Remove the debug banner
       debugShowCheckedModeBanner: false,
       title: 'BMI CALCULATOR',
       home: HomeScreen(),
